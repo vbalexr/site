@@ -1,5 +1,5 @@
 ---
-title: Network Configuration Plan
+title: Network Configuration
 date: 2025-04-22
 weight: 1
 description: >
