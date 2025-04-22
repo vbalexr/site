@@ -1,7 +1,7 @@
 ---
 title: Concepts
-date: 2025-04-21
-weight: 1
+date: 2025-04-22
+weight: 3
 description: >
   Key concepts and technologies to understand before diving into specific decisions for the home lab setup.
 tags: [hardware, network, storage]
@@ -13,7 +13,7 @@ This page provides an overview of some key networking and storage concepts that 
 
 # Network
 
-As I aim to minimize equipment to reduce points of failure and costs, I decided to use a **3-node cluster configuration** with a **Ring Network Topology**. This approach balances simplicity, reliability, and cost-effectiveness.
+As I aim to minimize equipment to reduce points of failure and costs, I decided to use a **3-node cluster configuration** with a **Ring Network Topology** well it end been a **Mesh Network Topology**. This approach balances simplicity, reliability, and cost-effectiveness.
 
 ## Ring Network Topology
 
@@ -110,13 +110,13 @@ For further reading and deeper insights into these concepts, check out the follo
 
 - **Ring Network Topology**:
   - [Wikipedia: Ring Network](https://en.wikipedia.org/wiki/Ring_network)
-  - [Network Topologies Explained](https://www.computerhope.com/jargon/r/ring-network.htm)
+  - [Network Topologies Explained](https://www.geeksforgeeks.org/types-of-network-topology/)
 
 - **Link Aggregation**:
   - [Lawrence Systems: LAGG Explained](https://www.youtube.com/watch?v=B7Dpuu_gBmo)
-  - [Cisco: Link Aggregation Overview](https://www.cisco.com/c/en/us/solutions/enterprise-networks/link-aggregation.html)
+
 
 - **RAID and ZFS**:
   - [ZFS Overview](https://openzfs.org/wiki/Main_Page)
-  - [RAID Levels Explained](https://www.backblaze.com/blog/raid-disk-recovery/)
+  - [RAID Levels Explained](https://en.wikipedia.org/wiki/Standard_RAID_levels)
   - [Lawrence Systems: ZFS Basics](https://www.youtube.com/watch?v=9d8wWcJLnFI)

@@ -1,28 +1,11 @@
 ---
-title: The Plan
+title: Network Configuration Plan
 date: 2025-04-22
-weight: 2
+weight: 1
 description: >
   A detailed plan for implementing the cluster, including hardware and network configurations.
 tags: [hardware, network]
 ---
-
-{{% pageinfo %}}
-This document is still a work in progress.
-{{% /pageinfo %}}
-
-After selecting the hardware, I’ve developed a comprehensive plan for setting up the cluster, focusing on efficient hardware utilization and a robust network configuration.
-
----
-
-# Hardware
-
-To build the cluster, I purchased three [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01) MiniPCs. These devices offer an excellent combination of performance, expandability, and energy efficiency. Each MiniPC provides the following connectivity options:
-
-- **2 USB4 Ports**: Supporting 20Gbps Thunderbolt Ethernet for high-speed data transfer.
-- **2 10Gb SFP+ Ports**: High-speed fiber connectivity, ideal for low-latency communication. I’ll be using [DAC cables](https://www.servethehome.com/what-is-a-direct-attach-copper-dac-cable/) for these connections.
-- **2 2.5Gb RJ45 Ports**: Standard Ethernet ports for general networking and external communication.
-
 This hardware configuration inspired a network design with three distinct networks, each optimized for specific purposes:
 
 1. **Internal Cluster Communication (SFP+ Ports)**  
@@ -40,10 +23,8 @@ This setup ensures that each type of traffic is handled by the most appropriate 
 - **Cluster Communication**: Second fastest network (SFP+).
 - **External Traffic**: Slower but sufficient network (RJ45).
 
----
 
-# Network Configuration Plan
-
+# Setup
 To implement this setup, I’ll follow these steps:
 
 1. **Set Up USB4 for Networking**  
@@ -86,5 +67,5 @@ Key benefits of this setup include:
 
 With this plan in place, I’m confident that the cluster will perform reliably and efficiently, supporting my home lab’s goals and requirements.
 
-Credits:  
-[ServeTheHome](https://www.servethehome.com)
+
+Check this video for a more comprenhise understanding of Ring Networks from [apalrd's adventures](https://www.youtube.com/watch?v=dAjw_4EpQdk)
