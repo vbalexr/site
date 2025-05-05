@@ -40,9 +40,9 @@ Here’s a glimpse of what you can expect:
 # Get in Touch
 
 I’d love to hear from you! Whether you have questions, suggestions, or just want to connect, here’s how you can reach me:
-- **Discord**: Join the community and chat with like-minded tech enthusiasts at [https://discord.gg/3kDj6T4CxD].
-- **GitHub**: Check out my projects or open an issue to collaborate at [https://github.com/vbalexr/].
-- **Email**: Feel free to send me a message at [vb.alexr@gmail.com].
+- **Discord**: Join the community and chat with like-minded tech enthusiasts at [Discord](https://discord.gg/3kDj6T4CxD).
+- **GitHub**: Check out my projects or open an issue to collaborate at [Github](https://github.com/vbalexr/).
+- **Email**: Feel free to send me a message at [vb.alexr@gmail.com](vb.alexr@gmail.com)
 
 Let’s build, learn, and grow together in this exciting world of technology!
 
