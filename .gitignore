@@ -1,0 +1,34 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo temporary files
+hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Node.js dependencies (if using npm/yarn for themes or tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Generated files
+*.tar.gz
+*.zip
+
+# Git-specific files
+*.orig
+
+# VS Code settings
+.vscode/
