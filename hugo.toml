@@ -1,0 +1,6 @@
+baseURL = 'https://vbalex.com/'
+languageCode = 'en-us'
+title = 'Just A Husband'
+[services]
+  [services.disqus]
+    shortname = 'justahusband'
