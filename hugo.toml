@@ -1,5 +1,5 @@
 baseURL = "http://www.vbalex.com"
-title = "A husband Blog"
+title = "Just A husband"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -23,11 +23,11 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "Alex Vargas"
+#author = "Alex Vargas"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Just a Husband documentation site"
 keywords = "blog,developer,network,home-lab,kubernetes"
-info = ["Just a Husband playing with tech"]
+info = ["Just a husband playing with tech"]
 avatarURL = "/images/avatar.png"
 #gravatar = "vb.alexr@gmail.com"
 dateFormat = "January 2, 2006"
