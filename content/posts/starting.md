@@ -56,4 +56,4 @@ This blog and my YouTube channel are my way of documenting my journey, sharing w
 
 ---
 
-Thank you for taking the time to read this. I hope you enjoy the content I share here, and I look forward to connecting with you!
+Thank you for taking the time to read this. This was my hello world post. Now lets dive in tech stuff.
